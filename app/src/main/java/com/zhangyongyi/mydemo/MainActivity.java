@@ -1,7 +1,7 @@
 package com.zhangyongyi.mydemo;
 
 public class MainActivity extends BaseActivity {
-    
+
 
     @Override
     protected int getLayout() {
