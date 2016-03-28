@@ -24,14 +24,8 @@ public abstract class BaseActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(getLayout());
         initPresenter();
-
-//        ActivityControl.addAty(tag, this);
-//        initView();
-//        try {
-//            initData();
-//        } catch (EaseMobException e) {
-//            e.printStackTrace();
-//        }
+        initView();
+        initData();
     }
 
     /**
